@@ -1,5 +1,5 @@
 module "sandbox" {
-  source = "modules/aft-account-request"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "vsubotskyi-aft-poc-sandbox@arturo.ai"
