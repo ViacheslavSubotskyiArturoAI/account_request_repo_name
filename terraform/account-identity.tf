@@ -4,7 +4,7 @@ module "identity" {
   control_tower_parameters = {
     AccountEmail              = "vsubotskyi-aft-poc-identity@arturo.ai"
     AccountName               = "Identity"
-    ManagedOrganizationalUnit = "AFT-Identity"
+    ManagedOrganizationalUnit = "Identity"
     SSOUserEmail              = "viacheslav.subotskyi@intellias.com"
     SSOUserFirstName          = "AFT"
     SSOUserLastName           = "Identity"
