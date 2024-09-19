@@ -1,13 +1,13 @@
-module "management" {
+module "aft_management" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "vsubotskyi@arturo.ai"
-    AccountName               = "Management"
-    ManagedOrganizationalUnit = "Root"
-#    SSOUserEmail              = "vsubotskyi@arturo.ai"
-#    SSOUserFirstName          = "AFT"
-#    SSOUserLastName           = "Management"
+    AccountEmail              = "vsubotskyi-aft-management-poc2@arturo.ai"
+    AccountName               = "AFT-Management"
+    ManagedOrganizationalUnit = "AFT"
+    SSOUserEmail              = "viacheslav.subotskyi@intellias.com"
+    SSOUserFirstName          = "Admin"
+    SSOUserLastName           = "User"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "management" {
     group = "test"
   }
 
-  account_customizations_name = "management"
+  account_customizations_name = "aft-management"
 }
