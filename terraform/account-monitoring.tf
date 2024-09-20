@@ -1,10 +1,10 @@
-module "logs" {
+module "monitoring" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "vsubotskyi-poc2-logs@arturo.ai"
-    AccountName               = "Logs"
-    ManagedOrganizationalUnit = "Logs"
+    AccountEmail              = "vsubotskyi-poc2-monitoring@arturo.ai"
+    AccountName               = "Monitoring"
+    ManagedOrganizationalUnit = "Monitoring"
     SSOUserEmail              = "viacheslav.subotskyi@intellias.com"
     SSOUserFirstName          = "Admin"
     SSOUserLastName           = "User"
@@ -23,5 +23,5 @@ module "logs" {
     group = "test"
   }
 
-  account_customizations_name = "logs"
+  account_customizations_name = "monitoring"
 }
