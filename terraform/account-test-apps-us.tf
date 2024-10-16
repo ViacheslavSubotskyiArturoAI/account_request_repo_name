@@ -20,8 +20,7 @@ module "test_apps_us" {
   }
 
   custom_fields = {
-    group              = "Test-Apps-US"
-    deployTriggerCount = 1 # used to initiate an automatic account customization apply
+    group = "Test-Apps-US"
   }
 
   account_customizations_name = "test-apps-us"

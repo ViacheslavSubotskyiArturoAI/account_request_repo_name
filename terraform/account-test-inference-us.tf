@@ -20,8 +20,7 @@ module "test_inference_us" {
   }
 
   custom_fields = {
-    group              = "Test-Inference-US"
-    deployTriggerCount = 1 # dummy change used to initiate an automatic account customization apply
+    group = "Test-Inference-US"
   }
 
   account_customizations_name = "test-inference-us"
