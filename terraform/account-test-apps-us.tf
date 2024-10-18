@@ -4,7 +4,7 @@ module "test_apps_us" {
   control_tower_parameters = {
     AccountEmail              = "vsubotskyi-poc2-test-apps-us@arturo.ai"
     AccountName               = "Test-Apps-US"
-    ManagedOrganizationalUnit = "Non-Prod"
+    ManagedOrganizationalUnit = "Non-Prod/US"
     SSOUserEmail              = "viacheslav.subotskyi@intellias.com"
     SSOUserFirstName          = "Admin"
     SSOUserLastName           = "User"
